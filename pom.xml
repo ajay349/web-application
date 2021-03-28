@@ -90,15 +90,15 @@
 	</dependencies>
 		<distributionManagement>
 <repository>
-  <id>dev-azure-com-pruthvidevops92-pruthvidevops92</id>
-  <url>https://pkgs.dev.azure.com/pruthvidevops92/_packaging/pruthvidevops92/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+  <id>nexus</id>
+  <name>ajay technologies releases nexus repository</name>
+  <url>http://54.190.195.16:8081/repository/amazon-release/</url>
+  </repository>
+  <snapshot Repository>
+  <id>nexus<id>
+  <name>ajaytechnologies snapshot nexus repository</name>
+  <url>http://54.190.195.16:8081/repository/amazon-snapshot/</url>
+</snapshotRepository>
 
 </distributionManagement>
 	
